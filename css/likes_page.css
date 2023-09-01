@@ -1,0 +1,57 @@
+.liked-videos .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    text-overflow: hidden;
+ }
+ 
+ .liked-videos .box-container .box{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+    overflow-x: hidden;
+ }
+ 
+ .liked-videos .box-container .box .tutor{
+    margin-bottom:2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+ }
+ 
+ .liked-videos .box-container .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .liked-videos .box-container .box .tutor h3{
+    font-size: 1.8rem;
+    color: var(--black);
+    margin-bottom: .2rem;
+ }
+ 
+ .liked-videos .box-container .box .tutor span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+ }
+ 
+ .liked-videos .box-container .box .thumb{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .liked-videos .box-container .box .title{
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem 0;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+ } 
+ 

@@ -1,0 +1,168 @@
+.playlist .row{
+    display: flex;
+    align-items: center;
+    gap:2.5rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: var(--white);
+ }
+ 
+ .playlist .row .col{
+    flex: 1 1 40rem;
+ }
+ 
+ .playlist .row .col .save-list button{
+    font-size: 2rem;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 1.2rem 2.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+ }
+ 
+ .playlist .row .col .save-list button i{
+    color: var(--black);
+    margin-right: 1rem;
+ }
+ 
+ .playlist .row .col .save-list button span{
+    color: var(--light-color);
+ }
+ 
+ .playlist .row .col .save-list button:hover{
+    background-color: var(--black);
+ }
+ 
+ .playlist .row .col .save-list button:hover i{
+    color: var(--white);
+ }
+ 
+ .playlist .row .col .save-list button:hover span{
+    color: var(--white);
+ }
+ 
+ .playlist .row .col .thumb{
+    position: relative;
+    height: 30rem;
+ }
+ 
+ .playlist .row .col .thumb span{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+ }
+ 
+ .playlist .row .col .thumb img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+ }
+ 
+ .playlist .row .col .tutor{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+ }
+ 
+ .playlist .row .col .tutor img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .playlist .row .col .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: .2rem;
+ }
+ 
+ .playlist .row .col .tutor span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+ }
+ 
+ .playlist .row .col .details{
+    padding-top: 1.5rem;
+ }
+ 
+ .playlist .row .col .details h3{
+    font-size: 2rem;
+    color: var(--black);
+ }
+ 
+ .playlist .row .col .details p{
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--light-color);
+    font-size: 1.7rem;
+ }
+ 
+ .playlist .row .col .details .date{
+    font-size: 1.7rem; 
+    padding-top: .5rem;
+ }
+ 
+ .playlist .row .col .details .date i{
+    color: var(--main-color);
+    margin-right: 1rem;
+ }
+ 
+ .playlist .row .col .details .date span{
+    color: var(--light-color);
+ }
+ 
+ .videos-container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .videos-container .box-container .box{
+    position: relative;
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: var(--white);
+ }
+ 
+ .videos-container .box-container .box img{
+    height: 20rem;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+ }
+ 
+ .videos-container .box-container .box i{
+    position: absolute;
+    top: 2rem; left: 2rem; right: 2rem;
+    height: 20rem;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #fff;
+    border-radius: .5rem;
+    display: none;
+ }
+ 
+ .videos-container .box-container .box:hover i{
+    display: flex;
+ }
+ 
+ .videos-container .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
+ }
+ 
+ .videos-container .box-container .box:hover h3{
+    color: var(--main-color);
+ }

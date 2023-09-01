@@ -1,0 +1,59 @@
+.courses .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 35rem);
+   gap: 1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.courses .box-container .box{
+   border-radius: .5rem;
+   background-color: var(--white);
+   padding: 2rem;
+}
+
+.courses .box-container .box .tutor{
+   margin-bottom: 2rem;
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+
+.courses .box-container .box .tutor img{
+   width: 5rem;
+   height: 5rem;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: .5rem;
+}
+
+.courses .box-container .box .tutor h3{
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: .2rem;
+}
+
+.courses .box-container .box .tutor span{
+   font-size: 1.5rem;
+   color: var(--light-color);
+}
+
+.courses .box-container .box .thumb{
+   width: 100%;
+   border-radius: .5rem;
+   height: 20rem;
+   object-fit: cover;
+   margin-bottom: .3rem;
+}
+
+.courses .box-container .box .title{
+   font-size: 2rem;
+   color: var(--black);
+   margin-top: .5rem;
+   padding: .5rem 0;
+}
+
+.courses .more-btn{
+   margin-top: 2rem;
+   text-align: center;
+}

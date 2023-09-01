@@ -1,0 +1,53 @@
+.tutor-profile .details{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+ }
+ 
+ .tutor-profile .details .tutor{
+    margin-bottom: 2rem;
+ }
+ 
+ .tutor-profile .details .tutor img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+ }
+ 
+ .tutor-profile .details .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin: .5rem 0;
+ }
+ 
+ .tutor-profile .details .tutor span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+ }
+ 
+ .tutor-profile .details .flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ 
+ .tutor-profile .details .flex p{
+    flex: 1 1 25rem;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: var(--light-color);
+ }
+ 
+ .tutor-profile .details .flex p span{
+    color: var(--main-color);
+ } 
+
+
+ 
+ 

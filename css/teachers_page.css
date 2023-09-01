@@ -1,0 +1,90 @@
+.teachers .search-tutor{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+ }
+ 
+ .teachers .search-tutor input{
+    width: 100%;
+    font-size: 1.8rem;
+    color: var(--black);
+    background: none;
+ }
+ 
+ .teachers .search-tutor button{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+    background: none;
+ }
+ 
+ .teachers .search-tutor button:hover{
+    color: var(--main-color);
+ }
+ 
+ .teachers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .teachers .box-container .box{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: var(--white);
+ }
+ 
+ .teachers .box-container .box .tutor{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+ }
+ 
+ .teachers .box-container .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+ 
+ .teachers .box-container .box .tutor h3{
+    color: var(--black);
+    font-size: 2rem;
+    margin-bottom: .2rem;
+ }
+ 
+ .teachers .box-container .box .tutor span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+ }
+ 
+ .teachers .box-container .box p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+ }
+ 
+ .teachers .box-container .box p span{
+    color: var(--main-color);
+ }
+ 
+ .teachers .box-container .offer{
+    text-align: center;
+ }
+ 
+ .teachers .box-container .offer h3{
+    font-size: 2rem;
+    color: var(--black);
+ }
+ 
+ .teachers .box-container .offer p{
+    line-height: 2;
+    padding-bottom: .5rem;
+ }

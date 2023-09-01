@@ -1,0 +1,72 @@
+.quick-select .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+   gap: 1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.quick-select .box-container .box{
+   border-radius: .5rem;
+   background-color: var(--white);
+   padding: 2rem;
+}
+
+.quick-select .box-container .box .title{
+   font-size: 2rem;
+   color: var(--black);
+}
+
+.quick-select .box-container .box p{
+   line-height: 1.5;
+   padding-top: 1.5rem;
+   color: var(--light-color);
+   font-size: 1.8rem;
+}
+
+.quick-select .box-container .box p span{
+   color: var(--main-color);
+}
+
+.quick-select .box-container .tutor{
+   text-align: center;
+}
+
+.quick-select .box-container .tutor p{
+   padding-bottom: 1rem;
+}
+
+.quick-select .box-container .box .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   padding-top: 2rem;
+}
+
+.quick-select .box-container .box .flex a{
+   padding: 1rem 1.5rem;
+   border-radius: .5rem;
+   font-size: 1.6rem;
+   background-color: var(--light-bg);
+}
+
+.quick-select .box-container .box .flex a i{
+   margin-right: 1rem;
+   color: var(--black);
+}
+
+.quick-select .box-container .box .flex a span{
+   color: var(--light-color);
+}
+
+.quick-select .box-container .box .flex a:hover{
+   background-color: var(--black);
+}
+
+.quick-select .box-container .box .flex a:hover i{
+   color: var(--white);
+}
+
+.quick-select .box-container .box .flex a:hover span{
+   color: var(--white)  ;
+}
