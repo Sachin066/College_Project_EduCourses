@@ -39,7 +39,9 @@ $total_comments = $select_comments->rowCount();
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="../admin_css/admin_style.css">
+   <link rel="stylesheet" href="../admin_css/admin_header_sidebar_footer.css">
+   <link rel="stylesheet" href="../admin_css/deshboard.css">
 
 </head>
 <body>
@@ -94,17 +96,6 @@ $total_comments = $select_comments->rowCount();
    </div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
