@@ -1,0 +1,64 @@
+.playlist-details .row{
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+ }
+ 
+ .playlist-details .row .thumb{
+    flex: 1 1 40rem;
+    height: 30rem;
+    position: relative;
+ }
+ 
+ .playlist-details .row .thumb img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+ }
+ 
+ .playlist-details .row .thumb span{
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    border-radius: .5rem;
+    position: absolute;
+    top: 1rem; left: 1rem;
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+ }
+ 
+ .playlist-details .row .details{
+    flex: 1 1 40rem;
+ }
+ 
+ .playlist-details .row .details .date{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+ }
+ 
+ .playlist-details .row .details .date i{
+    color: var(--main-color);
+    margin-right: 1rem;
+ }
+ 
+ .playlist-details .row .details .date span{
+    color: var(--light-color);
+ }
+ 
+ .playlist-details .row .details .title{
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+ }
+ 
+ .playlist-details .row .details .description{
+    padding: .5rem 0;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 2;
+    white-space: pre-line;
+ }

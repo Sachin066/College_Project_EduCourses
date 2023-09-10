@@ -1,0 +1,49 @@
+.video-form form{
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+    padding-top: 1rem;
+ }
+ 
+ .video-form form p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+ }
+ 
+ .video-form form p span{
+    color:var(--red);
+ }
+ 
+ .video-form form .box{
+    width: 100%;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    margin: 1rem 0;
+ }
+ 
+ .video-form form textarea{
+    height: 20rem;
+    resize: none;
+ }
+ 
+ .video-form form img{
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    object-fit: contain;
+    margin: .5rem 0;
+ }
+ 
+ .video-form form video{
+    background-color: #000;
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    margin: .5rem 0;
+ }

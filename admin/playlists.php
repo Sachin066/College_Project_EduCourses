@@ -48,7 +48,9 @@ if(isset($_POST['delete'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="../admin_css/admin_header_sidebar_footer.css">
+   <link rel="stylesheet" href="../admin_css/admin_style.css">
+   <link rel="stylesheet" href="../admin_css/playlists.css">
 
 </head>
 <body>

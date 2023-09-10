@@ -1,0 +1,67 @@
+.view-content .container{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+ }
+ 
+ .view-content .container .video{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    background: #000;
+    height: 50rem;
+ }
+ 
+ .view-content .container .date{
+    padding:1rem 0;
+    font-size: 1.7rem;
+ }
+ 
+ .view-content .container .date i{
+    margin-right: 1rem;
+    color: var(--main-color);
+ }
+ 
+ .view-content .container .date span{
+    color: var(--light-color);
+ }
+ 
+ .view-content .container .title{
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem 0;
+ }
+ 
+ .view-content .container .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+    border-top: var(--border);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ .view-content .container .flex div{
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+ }
+ 
+ .view-content .container .flex i{
+    margin-right: 1rem;
+    color: var(--main-color);
+ }
+ 
+ .view-content .container .flex span{
+    color: var(--light-color);
+ }
+ 
+ .view-content .container .description{
+    padding: .5rem 0;
+    line-height: 1.7;
+    font-size: 1.7rem;
+    color: var(--light-color);
+ }
