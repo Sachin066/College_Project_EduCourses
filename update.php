@@ -106,6 +106,7 @@ if(isset($_POST['submit'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/header_sidebar_footer.css">
+   <link rel="stylesheet" href="css/register_and_login_pages.css">
 
 </head>
 <body>

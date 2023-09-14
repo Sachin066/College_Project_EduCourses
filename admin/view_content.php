@@ -77,6 +77,7 @@ if(isset($_POST['delete_comment'])){
    <link rel="stylesheet" href="../admin_css/admin_header_sidebar_footer.css">
    <link rel="stylesheet" href="../admin_css/admin_style.css">
    <link rel="stylesheet" href="../admin_css/view_content.css">
+   <link rel="stylesheet" href="../admin_css/comments.css">
 
 
 </head>
