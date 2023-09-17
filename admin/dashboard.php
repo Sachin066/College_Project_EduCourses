@@ -42,6 +42,7 @@ $total_comments = $select_comments->rowCount();
    <link rel="stylesheet" href="../admin_css/admin_style.css">
    <link rel="stylesheet" href="../admin_css/admin_header_sidebar_footer.css">
    <link rel="stylesheet" href="../admin_css/deshboard.css">
+   
 
 </head>
 <body>

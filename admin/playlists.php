@@ -52,6 +52,7 @@ if(isset($_POST['delete'])){
    <link rel="stylesheet" href="../admin_css/admin_style.css">
    <link rel="stylesheet" href="../admin_css/playlists.css">
    
+   
 
 </head>
 <body>
